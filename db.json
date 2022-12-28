@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "firstName": "vanshika",
+      "lastName": "nahar",
+      "gender": "female",
+      "emailId": "vanshika@gmail.com",
+      "empId": "2",
+      "phoneNumber": 8727312232,
+      "id": 5
+    },
+    {
+      "firstName": "Shubham",
+      "lastName": "Bangotra",
+      "gender": "male",
+      "emailId": "ssdb@gamil.com",
+      "empId": "4",
+      "phoneNumber": 705182882,
+      "id": 6
+    },
+    {
+      "firstName": "reet",
+      "lastName": "nayak",
+      "gender": "female",
+      "emailId": "Reetnayak@gmail.com",
+      "empId": "5",
+      "phoneNumber": 6209211322,
+      "id": 7
+    }
+  ]
+}

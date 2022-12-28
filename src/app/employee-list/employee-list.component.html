@@ -1,0 +1,25 @@
+<table class="table table-hover table-striped table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">emailId</th>
+        <th scope="col">Phone Number</th> 
+        <th scope="col">Gender</th>   
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of employeeList">
+        <td>{{e.empId}}</td>
+        <td>{{e.firstName}}</td>
+        <td>{{e.lastName}}</td>
+        <td>{{e.emailId}}</td>
+        <td>{{e.phoneNumber}}</td>
+        <td>{{e.gender}}</td>
+        <td><button class="button1 btn-info" (click)="onUpdate(e)">edit</button></td>
+        <td><button class="button btn-info"(click)="onDelete(e.empId)">delete</button></td>
+      </tr>
+    </tbody>
+  </table>
